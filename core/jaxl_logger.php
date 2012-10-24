@@ -82,6 +82,7 @@ class JAXLLogger {
 				error_log(self::colorize($msg, $verbosity));
 			}
 		}
+	echo "\n---------------\nstart".$msg."end\n--------------\n\n";
 	}
 	
 	public static function colorize($msg, $verbosity) {
